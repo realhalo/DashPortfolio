@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="pref_sym_title"
+        android:title="@string/portfolio_sym_title_name"
+        android:entries="@array/portfolio_sym_title_names"
+        android:entryValues="@array/portfolio_sym_title_values"
+        android:defaultValue="^MYINDEX" />
+    <EditTextPreference
+        android:key="pref_syms"
+        android:title="@string/portfolio_syms_name"
+        android:defaultValue="@string/portfolio_syms_value"
+        android:selectAllOnFocus="false"
+        android:inputType="textCapCharacters"
+        android:capitalize="characters"
+        android:singleLine="false"
+        android:maxLines="5" />
+    <ListPreference
+        android:key="pref_sym_order"
+        android:title="@string/portfolio_sym_order_name"
+        android:entries="@array/portfolio_sym_order_names"
+        android:entryValues="@array/portfolio_sym_order_values"
+        android:defaultValue="alpha" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_click_reverse"
+        android:summary="@string/portfolio_click_reverse_name"
+        android:title="@string/portfolio_click_reverse_name" />
+    <EditTextPreference
+        android:key="pref_click"
+        android:title="@string/portfolio_click_name"
+        android:defaultValue="@string/portfolio_click_value"
+        android:selectAllOnFocus="true"
+        android:inputType="textUri"
+        android:capitalize="none"
+        android:singleLine="true"
+        android:maxLines="1" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_show_price"
+        android:summary="@string/portfolio_show_price_name"
+        android:title="@string/portfolio_show_price_name" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_hide_on_weekends"
+        android:summary="@string/portfolio_hide_on_weekend_name"
+        android:title="@string/portfolio_hide_on_weekend_name" />
+</PreferenceScreen>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">DashPortfolio</string>
+    <string name="portfolio_extension_title">Portfolio</string>
+    <string name="portfolio_extension_description">Display your portfolio of stocks in a consolidated format</string>
+    <string name="portfolio_pref_title">Portfolio Preferences</string>
+    <string name="portfolio_sym_title_name">Main Index</string>
+    <string-array name="portfolio_sym_title_names">
+        <item>Portfolio Average</item>
+        <item>S&amp;P 500</item>
+        <item>NASDAQ Composite</item>
+        <item>Russell 2000</item>
+        <item>AMEX Composite</item>
+        <item>Volatility S&amp;P 500</item>
+        <item>CBOE Gold</item>
+    </string-array>
+    <string-array name="portfolio_sym_title_short_names">
+        <item>Portfolio</item>
+        <item>S&amp;P500</item>
+        <item>NASDAQ</item>
+        <item>Russell</item>
+        <item>AMEX</item>
+        <item>Volatility</item>
+        <item>Gold</item>
+    </string-array>
+    <string-array name="portfolio_sym_title_values">
+        <item>^MYINDEX</item>
+        <item>^GSPC</item>
+        <item>^IXIC</item>
+        <item>^RUT</item>
+        <item>^XAX</item>
+        <item>^VIX</item>
+        <item>^GOX</item>
+    </string-array>
+    <string name="portfolio_syms_name">Symbols</string>
+    <string name="portfolio_syms_value">AAPL, GOOG, INTC, SPY, T</string>
+    <string name="portfolio_sym_order_name">Symbol ordering</string>
+    <string-array name="portfolio_sym_order_names">
+        <item>Alphabetical</item>
+        <item>Daily Percent Gain</item>
+        <item>Daily Percent Loss</item>
+        <item>Daily Price Gain</item>
+        <item>Daily Price Loss</item>
+    </string-array>
+    <string-array name="portfolio_sym_order_values">
+        <item>alpha</item>
+        <item>percent</item>
+        <item>percent_reverse</item>
+        <item>price</item>
+        <item>price_reverse</item>
+    </string-array>
+    <string name="portfolio_click_name">Click URL (if reverse order is disabled)</string>
+    <string name="portfolio_click_value">http://finance.yahoo.com</string>
+    <string name="portfolio_click_reverse_name">Click reverses ordering</string>
+    <string name="portfolio_show_price_name">Show price instead of percent</string>
+    <string name="portfolio_hide_on_weekend_name">Hide extension on weekends</string>
+</resources>
